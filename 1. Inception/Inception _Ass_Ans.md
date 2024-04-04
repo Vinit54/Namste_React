@@ -26,7 +26,8 @@ The name `React` was chosen because the library was designed to allow developers
 A: The `crossorigin` attribute sets the mode of the request to an HTTP CORS Request.
 The purpose of crossorigin attribute is used to share the resources from one domain to another domain. Basically, it is used to handle the CORS request. It is used to handle the CORS request that checks whether it is safe to allow for sharing the resources from other domains. #_Syntax_
 
-```<script crossorigin="anonymous|use-credentials">
+```
+<script crossorigin="anonymous|use-credentials">
 
 ```
 
@@ -46,7 +47,8 @@ A: `Async` - The async attribute is a `boolean attribute`. The script is downloa
 
 # _Syntax_
 
-```<script src="demo_async.js" async></script>
+```
+<script src="demo_async.js" async></script>
 
 ```
 
@@ -54,6 +56,7 @@ A: `Async` - The async attribute is a `boolean attribute`. The script is downloa
 
 # _Syntax_
 
-```<script src="demo_defer.js" defer></script>
+```
+<script src="demo_defer.js" defer></script>
 
 ```
